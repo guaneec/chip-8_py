@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "chip-8_py"
+version = "0.1.0"
+description = ""
+authors = ["dan <guaneec@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+PySDL2 = "^0.9.9"
+black = "^21.9b0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = {version = "^21.9b0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
