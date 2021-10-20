@@ -7,7 +7,6 @@ authors = ["dan <guaneec@gmail.com>"]
 [tool.poetry.dependencies]
 python = ">=3.10,<3.11"
 PySDL2 = "^0.9.9"
-black = "^21.9b0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
